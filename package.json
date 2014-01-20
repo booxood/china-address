@@ -1,0 +1,42 @@
+{
+  "name": "china-address",
+  "version": "0.0.1",
+  "description": "China address",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "make test-all",
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/"
+    },
+    "travis-cov": {
+      "threshold": 80
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "travis-cov": "*",
+    "blanket": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/booxood/china-address.git"
+  },
+  "keywords": [
+    "china",
+    "address",
+    "province",
+    "city"
+  ],
+  "author": "liucw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booxood/china-address/issues"
+  }
+}
