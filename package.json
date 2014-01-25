@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "make test-all",
+    "test": "make test-all"
+  },
+  "config": {
     "blanket": {
       "pattern": "//^((?!(node_modules|test)).)*$/"
     },
