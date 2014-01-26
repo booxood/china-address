@@ -1,7 +1,7 @@
 {
   "name": "china-address",
   "version": "0.0.1",
-  "description": "China address",
+  "description": "提供中国地址的 省 市 县 信息查询",
   "main": "./index.js",
   "directories": {
     "test": "test"
@@ -34,7 +34,8 @@
     "china",
     "address",
     "province",
-    "city"
+    "municipal",
+    "county"
   ],
   "author": "liucw",
   "license": "MIT",
